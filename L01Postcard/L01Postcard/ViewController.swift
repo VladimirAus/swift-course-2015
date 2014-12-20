@@ -36,9 +36,13 @@ class ViewController: UIViewController {
         nameLabel.text = nameTextField.text
         nameLabel.textColor = UIColor.blueColor()
         
+        // Clear text
         messageTextField.text = ""
         nameTextField.text = ""
+        
+        // Hide keyboard
         messageTextField.resignFirstResponder()
+        nameTextField.resignFirstResponder()
         
         mailBtn.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
