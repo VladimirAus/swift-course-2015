@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var mailBtn: UIButton!
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var messageTextField: UITextField!
@@ -31,7 +32,12 @@ class ViewController: UIViewController {
         messageLabel.text = messageTextField.text
         messageLabel.textColor = UIColor.redColor()
         
+        nameLabel.hidden = false
+        nameLabel.text = nameTextField.text
+        nameLabel.textColor = UIColor.blueColor()
+        
         messageTextField.text = ""
+        nameTextField.text = ""
         messageTextField.resignFirstResponder()
         
         mailBtn.setTitle("Mail Sent", forState: UIControlState.Normal)
