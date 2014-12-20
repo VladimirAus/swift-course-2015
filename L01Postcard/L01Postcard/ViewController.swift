@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         messageLabel.hidden = false
         messageLabel.text = messageTextField.text
         messageTextField.text = ""
+        messageTextField.resignFirstResponder()
     }
 
 }
