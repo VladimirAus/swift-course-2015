@@ -28,6 +28,8 @@ class ViewController: UIViewController {
     @IBAction func sendMailBtnPressed(sender: UIButton) {
         messageLabel.hidden = false
         messageLabel.text = messageTextField.text
+        messageLabel.textColor = UIColor.redColor()
+        
         messageTextField.text = ""
         messageTextField.resignFirstResponder()
     }
