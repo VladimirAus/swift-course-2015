@@ -126,6 +126,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="mailBtn" destination="o75-WO-U6z" id="GAa-cc-KO7"/>
                         <outlet property="messageLabel" destination="ErN-zH-XFp" id="XUb-Mp-cST"/>
                         <outlet property="messageTextField" destination="9JA-3U-Hvx" id="B0h-NR-Gg8"/>
                         <outlet property="nameTextField" destination="Py2-bn-odQ" id="FCh-O5-jh6"/>

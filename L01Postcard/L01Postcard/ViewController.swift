@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var mailBtn: UIButton!
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var messageTextField: UITextField!
@@ -32,6 +33,8 @@ class ViewController: UIViewController {
         
         messageTextField.text = ""
         messageTextField.resignFirstResponder()
+        
+        mailBtn.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
 
 }
