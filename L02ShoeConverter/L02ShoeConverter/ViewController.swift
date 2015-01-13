@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var mensShoeSizeTxtfield: UITextField!
     @IBOutlet weak var mensConvertedShoeSizeLbl: UILabel!
-    
+    @IBOutlet weak var womensShoeSizeTxtfield: UITextField!
+    @IBOutlet weak var womensConvertedShoeSizeLbl: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,8 +35,10 @@ class ViewController: UIViewController {
         let conversionConst = 30
         mensConvertedShoeSizeLbl.hidden = false
         
-        mensConvertedShoeSizeLbl.text = "\(sizeFromTxtField + conversionConst)" + "in EU shoe size"
+        mensConvertedShoeSizeLbl.text = "\(sizeFromTxtField + conversionConst)" + " in EU shoe size"
     }
 
+    @IBAction func convertWomenBtnPressed(sender: AnyObject) {
+    }
 }
 
