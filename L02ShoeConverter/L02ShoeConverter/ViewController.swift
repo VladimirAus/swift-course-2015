@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func convertBtnPressed(sender: AnyObject) {
+    @IBAction func convertBtnPressed(sender: UIButton) {
         
         let sizeFromTxtField = mensShoeSizeTxtfield.text.toInt()!
         
@@ -33,15 +33,17 @@ class ViewController: UIViewController {
         mensConvertedShoeSizeLbl.hidden = false
         
         mensConvertedShoeSizeLbl.text = "\(sizeFromTxtField + conversionConst)" + " in EU shoe size"
+        sender.resignFirstResponder()
     }
 
-    @IBAction func convertWomenBtnPressed(sender: AnyObject) {
+    @IBAction func convertWomenBtnPressed(sender: UIButton) {
         let sizeFromTxtField = Double((womensShoeSizeTxtfield.text as NSString).doubleValue)
         
         let conversionConst = 30.5
         womensConvertedShoeSizeLbl.hidden = false
         
         womensConvertedShoeSizeLbl.text = "\(sizeFromTxtField + conversionConst)" + " in EU shoe size"
+        sender.resignFirstResponder()
     }
 }
 
