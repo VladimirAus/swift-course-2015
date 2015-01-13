@@ -26,9 +26,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func convertBtnPressed(sender: AnyObject) {
-//        let sizeFromTxtField = mensShoeSizeTxtfield.text
-//        let numberFromTextField = sizeFromTxtField.toInt()
-//        var intFromTxtField = numberFromTextField!
         
         let sizeFromTxtField = mensShoeSizeTxtfield.text.toInt()!
         
@@ -39,6 +36,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func convertWomenBtnPressed(sender: AnyObject) {
+        let sizeFromTxtField = Double((womensShoeSizeTxtfield.text as NSString).doubleValue)
+        
+        let conversionConst = 30.5
+        womensConvertedShoeSizeLbl.hidden = false
+        
+        womensConvertedShoeSizeLbl.text = "\(sizeFromTxtField + conversionConst)" + " in EU shoe size"
     }
 }
 
