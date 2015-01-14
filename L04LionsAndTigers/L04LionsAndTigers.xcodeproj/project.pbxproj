@@ -13,6 +13,7 @@
 		39C7B42C1A66B4C3000E9F00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C7B42B1A66B4C3000E9F00 /* Images.xcassets */; };
 		39C7B42F1A66B4C3000E9F00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C7B42D1A66B4C3000E9F00 /* LaunchScreen.xib */; };
 		39C7B43B1A66B4C4000E9F00 /* L04LionsAndTigersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7B43A1A66B4C4000E9F00 /* L04LionsAndTigersTests.swift */; };
+		39C7B4451A66B737000E9F00 /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7B4441A66B737000E9F00 /* Tiger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		39C7B4341A66B4C4000E9F00 /* L04LionsAndTigersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L04LionsAndTigersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C7B4391A66B4C4000E9F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C7B43A1A66B4C4000E9F00 /* L04LionsAndTigersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L04LionsAndTigersTests.swift; sourceTree = "<group>"; };
+		39C7B4441A66B737000E9F00 /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				39C7B4241A66B4C3000E9F00 /* AppDelegate.swift */,
 				39C7B4261A66B4C3000E9F00 /* ViewController.swift */,
 				39C7B4281A66B4C3000E9F00 /* Main.storyboard */,
+				39C7B4441A66B737000E9F00 /* Tiger.swift */,
 				39C7B42B1A66B4C3000E9F00 /* Images.xcassets */,
 				39C7B42D1A66B4C3000E9F00 /* LaunchScreen.xib */,
 				39C7B4221A66B4C3000E9F00 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39C7B4271A66B4C3000E9F00 /* ViewController.swift in Sources */,
+				39C7B4451A66B737000E9F00 /* Tiger.swift in Sources */,
 				39C7B4251A66B4C3000E9F00 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
