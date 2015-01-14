@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E00EA2FC-7FB1-4531-B15B-3F9C93AEE875</string>
+	<key>IDESourceControlProjectName</key>
+	<string>L03AgeOfLaika</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF69BA2EE1DDBC4CC81DCCFB7D991234273BFF6F</key>
+		<string>https://bitbucket.org/VladimirAus/swift-course.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>L03AgeOfLaika/L03AgeOfLaika.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF69BA2EE1DDBC4CC81DCCFB7D991234273BFF6F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/VladimirAus/swift-course.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF69BA2EE1DDBC4CC81DCCFB7D991234273BFF6F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF69BA2EE1DDBC4CC81DCCFB7D991234273BFF6F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift-course</string>
+		</dict>
+	</array>
+</dict>
+</plist>
