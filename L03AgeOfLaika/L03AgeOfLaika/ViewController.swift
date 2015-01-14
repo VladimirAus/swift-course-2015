@@ -29,9 +29,25 @@ class ViewController: UIViewController {
         let strFromTxtfield = humanYearsTxtfield.text
         let optIntFromTxtfield = strFromTxtfield.toInt()
         let intFromOpt = optIntFromTxtfield!
-        outputLbl.text = "\(intFromOpt * 7)" + "Human Years"
+        outputLbl.text = "\(intFromOpt * 7)" + " Human Years"
         humanYearsTxtfield.resignFirstResponder()
     }
 
+    @IBAction func convertToRealDogYears(sender: UIButton) {
+        outputLbl.hidden = false
+        let strFromTxtfield = humanYearsTxtfield.text
+        let dblFromTxtfield = Double((strFromTxtfield as NSString).doubleValue)
+        
+        var realDogYears:Double
+        if dblFromTxtfield > 2 {
+            realDogYears = (10.5 * 2) + (dblFromTxtfield - 2)
+        }
+        else {
+            realDogYears = dblFromTxtfield * 10.5
+        }
+        
+        outputLbl.text = "\(realDogYears)" + " Real Human Years"
+        humanYearsTxtfield.resignFirstResponder()
+    }
 }
 
